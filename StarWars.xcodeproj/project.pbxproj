@@ -65,6 +65,7 @@
 		C0295AE0283E1FE800AA2758 /* GetPlanetsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0295ADF283E1FE800AA2758 /* GetPlanetsResponse.swift */; };
 		C06F158B283EA9D7000535B5 /* PlanetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06F158A283EA9D7000535B5 /* PlanetDetailViewController.swift */; };
 		C06F158E283EAAF1000535B5 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06F158D283EAAF1000535B5 /* UIImageViewExtension.swift */; };
+		C0B552AF284284D0005ABE38 /* PlanetsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B552AE284284D0005ABE38 /* PlanetsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -124,6 +125,7 @@
 		C0295ADF283E1FE800AA2758 /* GetPlanetsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPlanetsResponse.swift; sourceTree = "<group>"; };
 		C06F158A283EA9D7000535B5 /* PlanetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailViewController.swift; sourceTree = "<group>"; };
 		C06F158D283EAAF1000535B5 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		C0B552AE284284D0005ABE38 /* PlanetsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -313,6 +315,7 @@
 			isa = PBXGroup;
 			children = (
 				C00FD17F283FD64A000AC10C /* PlanetViewModel.swift */,
+				C0B552AE284284D0005ABE38 /* PlanetsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -512,6 +515,7 @@
 				C00FD171283F0ADB000AC10C /* NetworkState.swift in Sources */,
 				C00FD12D283F07B0000AC10C /* MultipartMedia.swift in Sources */,
 				C00FD124283F038C000AC10C /* Cancellable.swift in Sources */,
+				C0B552AF284284D0005ABE38 /* PlanetsViewModel.swift in Sources */,
 				C00FD129283F0424000AC10C /* APIClient+Product.swift in Sources */,
 				C0295AB7283E0D5700AA2758 /* AppDelegate.swift in Sources */,
 				C00FD175283F0BCC000AC10C /* StarwarsEndpoint.swift in Sources */,
